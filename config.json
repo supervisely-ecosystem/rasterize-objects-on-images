@@ -5,7 +5,7 @@
     "converter"
   ],
   "description": "Convert classes to bitmap and rasterize objects without intersections",
-  "docker_image": "docker.deepsystems.io/supervisely/five/base-py-sdk-internal:app",
+  "docker_image": "docker.deepsystems.io/supervisely/five/base-py-sdk-internal:apps",
   "main_script": "src/rasterize_objects_on_images.py",
   "task_location": "workspace_tasks",
   "modal_template": "src/modal.html",
