@@ -1,12 +1,11 @@
 import os
-import random
-import string
 import supervisely_lib as sly
 
 import numpy as np
 
 my_app = sly.AppService()
 
+task_id = os.environ["TASK_ID"]
 TEAM_ID = int(os.environ['modal.state.teamId'])
 WORKSPACE_ID = int(os.environ['modal.state.workspaceId'])
 PROJECT_ID = int(os.environ['modal.state.slyProjectId'])
@@ -111,6 +110,7 @@ def main():
 
             ds_progress.iters_done_report(len(img_infos))
 
+    api.task.set_output_project(task_id, dst_project.id, dst_project.name)
 
 if __name__ == "__main__":
     sly.main_wrapper("main", main)
