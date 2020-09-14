@@ -16,7 +16,7 @@
   "headless": true,
   "context_menu": {
     "target": ["images_project"],
-    "context_category": "Objects"
+    "context_category": "Converter"
   },
   "context_category": "Converter"
 }
