@@ -6,8 +6,8 @@ import numpy as np
 my_app = sly.AppService()
 
 task_id = os.environ["TASK_ID"]
-TEAM_ID = int(os.environ['modal.state.teamId'])
-WORKSPACE_ID = int(os.environ['modal.state.workspaceId'])
+TEAM_ID = int(os.environ['context.teamId'])
+WORKSPACE_ID = int(os.environ['context.workspaceId'])
 PROJECT_ID = int(os.environ['modal.state.slyProjectId'])
 
 

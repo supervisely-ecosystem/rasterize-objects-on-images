@@ -13,6 +13,7 @@
   "icon": "https://img.icons8.com/cute-clipart/100/000000/paint.png",
   "icon_background": "#FFFFFF",
   "icon_cover": true,
+  "headless": true,
   "context_menu": {
     "target": ["images_project"],
     "context_root": "Run App"
