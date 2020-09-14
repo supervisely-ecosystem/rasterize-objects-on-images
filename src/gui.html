@@ -1,0 +1,14 @@
+<div>
+    <pre>{{state}}</pre>
+<!--    <pre>{{data}}</pre>-->
+    <div v-for="(shapes, className) in data.shapeSelectors">
+        <el-select style="margin-top: 10px;" v-model="state.selectors[className]" placeholder="Select new shape">
+            <el-option
+                    v-for="item in shapes"
+                    :key="item.value"
+                    :label="item.label"
+                    :value="item.value">
+            </el-option>
+        </el-select>
+    </div>
+</div>
