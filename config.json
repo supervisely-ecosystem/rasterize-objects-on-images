@@ -16,7 +16,7 @@
   "headless": true,
   "context_menu": {
     "target": ["images_project"],
-    "context_root": "Run App"
+    "context_category": "Objects",
   },
   "context_category": "Converter"
 }
