@@ -8,6 +8,7 @@
   "docker_image": "docker.deepsystems.io/supervisely/five/base-py-sdk-internal:app",
   "main_script": "src/rasterize_objects_on_images.py",
   "task_location": "workspace_tasks",
+  "modal_template": "src/modal.html",
   "isolate": true,
   "icon": "https://img.icons8.com/cute-clipart/100/000000/paint.png",
   "icon_background": "#FFFFFF",
