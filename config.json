@@ -17,6 +17,5 @@
   "context_menu": {
     "target": ["images_project"],
     "context_category": "Converter"
-  },
-  "context_category": "Converter"
+  }
 }
