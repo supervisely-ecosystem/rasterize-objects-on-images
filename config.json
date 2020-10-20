@@ -10,7 +10,7 @@
   "task_location": "workspace_tasks",
   "modal_template": "src/modal.html",
   "isolate": true,
-  "icon": "https://img.icons8.com/color/96/000000/paint-brush.png",
+  "icon": "https://img.icons8.com/fluent/96/000000/roller-brush.png",
   "icon_background": "#FFFFFF",
   "headless": true,
   "context_menu": {
