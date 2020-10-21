@@ -23,7 +23,7 @@ During labeling objects are treated as layers. Objects order matters and defines
 
 Let's see the example below. First labeled object is road, second object is car. We labeled them separately. Now some image pixels (car) belong to two objects simultaneously. 
 
-<img src="https://media.giphy.com/media/xOUlIfGk7kXlmcWwKb/giphy.gif" width="900px"/>
+<img src="https://media.giphy.com/media/xOUlIfGk7kXlmcWwKb/giphy.gif" width="600px"/>
 
 How mo make a hole in the road object? 
 
@@ -35,6 +35,8 @@ How mo make a hole in the road object?
 **Option 2: rasterization approach**. In labeling inteface we label objects as layers and keep specific order with intersections. Before exporting labeled data we rasterize annotations. As a result we use rasterized data to train model. This method does not have the disadvantages from `Option 1` described above. **Some notes**: such approach is used by many profeccional labeler and in academia. For example, objects in [Cityscapes Dataset](https://www.cityscapes-dataset.com/) were labeled in specific order with intersection and the automatically postprocessed like this app does.  
 
 So the result after rasterization will be the following:
+
+<img src="https://media.giphy.com/media/TRA1kpZolhegrlGTxM/giphy.gif" width="600px"/>
 
 
 ## Specification
@@ -48,7 +50,7 @@ So the result after rasterization will be the following:
 
 ### Step 1: Run from context menu of project / dataset
 
-Go to "Context Menu" (images project or dataset) -> "Run App" -> "Transform" -> "Unpack AnyShape Classes"
+Go to "Context Menu" (images project) -> "Run App" -> "Transform" -> "Rasterize objects on images"
 
 <img src="https://i.imgur.com/r8AlpZC.png" width="600"/>
 
