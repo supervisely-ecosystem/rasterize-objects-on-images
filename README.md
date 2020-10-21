@@ -25,6 +25,7 @@ Let's see the example below. First labeled object is road, second object is car.
 <img src="https://media.giphy.com/media/xOUlIfGk7kXlmcWwKb/giphy.gif" width="900px"/>
 
 How mo make a hole in the road object? 
+
 **Option 1: during labeling**. Drawbacks: 
 - It requires more clicks (car will be labeled twiсe - as a hole in the road and as ar itself) - even with a specially designed labeling tools it is time consuming. 
 - It is hard to modify objects. If the car is labeled wrong, we have to modify both the car and the hole in the road. Therefore we make more clicks and spend more time.
