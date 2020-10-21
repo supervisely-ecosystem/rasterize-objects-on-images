@@ -18,12 +18,20 @@
 </div>
 
 ## Overview 
-During labeling objects are treated as layers. Objects order matters and defines final visualization.  
+During labeling objects are treated as layers. Objects order matters and defines final visualization. For example, objects rasterization is needed to train semantic segmentation model (every pixel on the image have to belong to a single class). 
 
-
-Objects rasterization is useful techniq to prepare data for NN training.
+Let's see the example below. First labeled object is road, second object is car. We labeled them separately. Now some image pixels (car) belong to two objects simultaneously. 
 
 <img src="https://media.giphy.com/media/xOUlIfGk7kXlmcWwKb/giphy.gif"/>
+
+How mo make a hole in road object? 
+**Option 1: during labeling**. Drawbacks: 
+- It requires more clicks (car will be labeled twiсe - as a hole in the road and as ar itself) - even with a specially designed labeling tools. 
+- It is hard to modify objects. If the car is labeled wrong, we have to modify both car and hole in the road. Therefore we make more clicks and spend more time.
+- Sometimes it is impossible because annotation requirements may change over time. For example: at the beginning we labeled only `road` surfaces and then requirements changed - new class `car` have to be labeled too.   
+
+
+
 
 
 
