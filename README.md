@@ -48,7 +48,7 @@ So the result after rasterization will be the following:
 
 ## How To Run
 
-### Step 1: Run from context menu of project / dataset
+### Step 1: Run from context menu of project
 
 Go to "Context Menu" (images project) -> "Run App" -> "Transform" -> "Rasterize objects on images"
 
