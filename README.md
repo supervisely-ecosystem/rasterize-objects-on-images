@@ -58,15 +58,5 @@ Go to "Context Menu" (images project) -> "Run App" -> "Transform" -> "Rasterize 
 
 Once app is started, new task appear in workspace tasks. Monitor progress from "Tasks" list.
 
-<img src="https://i.imgur.com/JqHh9pZ.png"/>
-
-## Explanation
-
-- Result project name = original name + "(without AnyShape)" suffix
-
-- Your data is safe: app creates new project with modified classes and objects. The original project remains unchanged
-
-- All "AnyShape" classes will be unpacked to equivalent classes with strictly defined shapes. In our example the class `car` will be splited to classes `car_polygon`, `car_bitmap`, `car_rectangle`. 
-
-- Colors of new classes will be generated randomly
+<img src="blob:https://imgur.com/62655cd1-2358-41af-b504-d1596685706c"/>
 
