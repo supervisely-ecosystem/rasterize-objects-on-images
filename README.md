@@ -23,7 +23,7 @@ During labeling objects are treated as layers. Objects order matters and defines
 
 Objects rasterization is useful techniq to prepare data for NN training.
 
-<img src="http://www.giphy.com/gifs/xOUlIfGk7kXlmcWwKb"/>
+<img src="https://media.giphy.com/media/xOUlIfGk7kXlmcWwKb/giphy.gif"/>
 
 
 
