@@ -22,7 +22,7 @@ During labeling objects are treated as layers. Objects order matters and defines
 
 Let's see the example below. First labeled object is road, second object is car. We labeled them separately. Now some image pixels (car) belong to two objects simultaneously. 
 
-<img src="https://media.giphy.com/media/xOUlIfGk7kXlmcWwKb/giphy.gif"/>
+<img src="https://media.giphy.com/media/xOUlIfGk7kXlmcWwKb/giphy.gif" width="900px"/>
 
 How mo make a hole in the road object? 
 **Option 1: during labeling**. Drawbacks: 
