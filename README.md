@@ -52,7 +52,7 @@ So the result after rasterization will be the following:
 
 Go to "Context Menu" (images project) -> "Run App" -> "Transform" -> "Rasterize objects on images"
 
-<img src="https://i.imgur.com/r8AlpZC.png" width="600"/>
+<img src="https://i.imgur.com/BICOj3j.png" width="600"/>
 
 ### Step 2:  Waiting until the task finishes
 
