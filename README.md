@@ -18,21 +18,11 @@
 </div>
 
 ## Overview 
+During labeling objects are treated as layers. Objects order matters and defines final visualization.  
 
-In Supervisely, you have to define classes before labeling. The shape of class specifies instruments that are available in annotation interface. For example, if you need to label cars with polygonal tool, you have to create class `Car` with shape `Polygon`.
 
-Supervisely supports the following shapes:
-- Rectangle
-- Polygon
-- Bitmap
-- Line (polyline)
-- Point
-- Keypoints (graphs) - sets of vertices connected by edges
-- Cuboids (2D and 3D)
-- AnyShape (will be explained below)
-- ...
+Objects rasterization is useful techniq to prepare data for NN training.
 
-Example: objects of class `Bitmap` can be labeled with the following instruments: brush + eraser, pen, polygon, SmartTool. Whatever instrument is used, these objects always are saved as masks (raster). 
 
 ### What is AnyShape class? 
 
