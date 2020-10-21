@@ -6,6 +6,7 @@
   
 <p align="center">
   <a href="#Overview">Overview</a> •
+  <a href="#Specification">Specification</a> •
   <a href="#How-To-Run">How To Run</a>
 </p>
 
@@ -36,6 +37,12 @@ How mo make a hole in the road object?
 So the result after rasterization will be the following:
 
 
+## Specification
+
+- Result project name = original name + "(rasterized)" suffix
+- Classes with shapes "rectangle", "polygon", "bitmap" and "any shape" will be converted to shape bitmap, other classes remain the same
+- All objects will be rasterized without intersections (i.e. one pixel will belong to only one object)
+- Classes with other shapes ("polyline", "point", etc) and their objects will be copied to result project without modification
 
 ## How To Run
 
