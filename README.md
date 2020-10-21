@@ -31,7 +31,7 @@ How mo make a hole in the road object?
 - It is hard to modify objects. If the car is labeled wrong, we have to modify both the car and the hole in the road. Therefore we make more clicks and spend more time.
 - Sometimes it is impossible because annotation requirements may change over time. For example: at the beginning we labeled only `road` surfaces and then requirements changed - new class `car` have to be labeled too.   
 
-**Option 2: rasterization app**. In labeling inteface we label objects as layers and keep specific order with intersections. Before exporting labeled data we rasterize annotations. As a result we use rasterized data to train model. This method does not have the disadvantages from `Option 1` described above. **Some notes**: such approach is used by many profeccional labeler and in academia. For example, objects in [Cityscapes Dataset](https://www.cityscapes-dataset.com/) were labeled in specific order with intersection and the automatically postprocessed like this app does.  
+**Option 2: rasterization approach**. In labeling inteface we label objects as layers and keep specific order with intersections. Before exporting labeled data we rasterize annotations. As a result we use rasterized data to train model. This method does not have the disadvantages from `Option 1` described above. **Some notes**: such approach is used by many profeccional labeler and in academia. For example, objects in [Cityscapes Dataset](https://www.cityscapes-dataset.com/) were labeled in specific order with intersection and the automatically postprocessed like this app does.  
 
 So the result after rasterization will be the following:
 
