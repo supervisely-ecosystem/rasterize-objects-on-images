@@ -58,5 +58,5 @@ Go to "Context Menu" (images project) -> "Run App" -> "Transform" -> "Rasterize 
 
 Once app is started, new task appear in workspace tasks. Monitor progress from "Tasks" list.
 
-<img src="blob:https://imgur.com/62655cd1-2358-41af-b504-d1596685706c"/>
+<img src="https://i.imgur.com/nFMAR6D.png"/>
 
