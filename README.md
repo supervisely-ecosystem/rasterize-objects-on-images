@@ -1,6 +1,6 @@
 <div align="center" markdown> 
 
-<img src="https://i.imgur.com/CLlwsFC.png"/>
+<img src="https://user-images.githubusercontent.com/48245050/182393169-0b67dc0e-7a51-4bab-bd2b-96904b5218cd.png"/>
 
 # Rasterize objects on images
   
