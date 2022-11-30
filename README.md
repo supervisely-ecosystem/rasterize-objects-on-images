@@ -44,6 +44,7 @@ So the result after rasterization will be the following:
 - Classes with shapes "rectangle", "polygon", "bitmap" and "any shape" will be converted to shape bitmap, other classes remain the same
 - All objects will be rasterized without intersections (i.e. one pixel will belong to only one object)
 - Classes with other shapes ("polyline", "point", etc) and their objects will be copied to result project without modification
+- If input data is labeled for instance segmentation, resulting project also will contain corrected instance segmentations (one pixel - one object). 
 
 ## How To Run
 
