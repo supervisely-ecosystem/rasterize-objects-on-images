@@ -22,7 +22,7 @@ During labeling objects are treated as layers. Objects order matters and defines
 
 Let's see the example below. First labeled object is road, second object is car. We labeled them separately. Now some image pixels (car) belong to two objects simultaneously. 
 
-<img src="https://media.giphy.com/media/xOUlIfGk7kXlmcWwKb/giphy.gif" width="600px"/>
+<img src="media/ov.gif" width="600px"/>
 
 How mo make a hole in the road object? 
 
@@ -35,7 +35,7 @@ How mo make a hole in the road object?
 
 So the result after rasterization will be the following:
 
-<img src="https://media.giphy.com/media/TRA1kpZolhegrlGTxM/giphy.gif" width="600px"/>
+<img src="media/ov2.gif" width="600px"/>
 
 
 ## Specification
@@ -52,11 +52,11 @@ So the result after rasterization will be the following:
 
 Go to "Context Menu" (images project) -> "Run App" -> "Transform" -> "Rasterize objects on images"
 
-<img src="https://i.imgur.com/BICOj3j.png" width="600"/>
+<img src="media/htr1.png" width="600"/>
 
 ### Step 2:  Waiting until the task finishes
 
 Once app is started, new task appear in workspace tasks. Monitor progress from "Tasks" list.
 
-<img src="https://i.imgur.com/nFMAR6D.png"/>
+<img src="media/htr2.png"/>
 
