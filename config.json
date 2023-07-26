@@ -1,25 +1,25 @@
 {
-  "name": "Rasterize objects on images",
-  "type": "app",
-  "categories": [
-    "images",
-    "annotation transformation",
-    "data operations"
-  ],
-  "description": "Convert classes to bitmap and rasterize objects without intersections",
-  "docker_image": "supervisely/base-py-sdk:6.35.0",
-  "main_script": "src/rasterize_objects_on_images.py",
-  "task_location": "workspace_tasks",
-  "modal_template": "src/modal.html",
-  "isolate": true,
-  "icon": "https://img.icons8.com/fluent/96/000000/roller-brush.png",
-  "icon_background": "#FFFFFF",
-  "headless": true,
-  "context_menu": {
-    "target": [
-      "images_project"
+    "name": "Rasterize objects on images",
+    "type": "app",
+    "categories": [
+        "images",
+        "annotation transformation",
+        "data operations"
     ],
-    "context_category": "Transform"
-  },
-  "poster": "https://user-images.githubusercontent.com/48245050/182393169-0b67dc0e-7a51-4bab-bd2b-96904b5218cd.png"
+    "description": "Convert classes to bitmap and rasterize objects without intersections",
+    "docker_image": "supervisely/base-py-sdk:6.72.81",
+    "main_script": "src/rasterize_objects_on_images.py",
+    "task_location": "workspace_tasks",
+    "modal_template": "src/modal.html",
+    "isolate": true,
+    "icon": "https://img.icons8.com/fluent/96/000000/roller-brush.png",
+    "icon_background": "#FFFFFF",
+    "headless": true,
+    "context_menu": {
+        "target": [
+            "images_project"
+        ],
+        "context_category": "Transform"
+    },
+    "poster": "https://user-images.githubusercontent.com/48245050/182393169-0b67dc0e-7a51-4bab-bd2b-96904b5218cd.png"
 }
