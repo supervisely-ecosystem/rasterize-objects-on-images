@@ -85,7 +85,9 @@ def main():
                                          labeler_login=g.labeler_login,
                                          updated_at=g.updated_at,
                                          created_at=g.created_at)
-                    new_lbl = lbl.clone(geometry=new_bmp, obj_class=new_cls)
+                    # Converting to JSON and back - is important for optimization, do not remove.
+                    new_lbl = lbl.clone(geometry=new_bmp, obj_class=new_cls).to_json()
+                    new_lbl = sly.Label.from_json(new_lbl, dst_project_meta)
                     new_labels.append(new_lbl)
 
         return src_ann.clone(labels=new_labels)
